@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.10.6"
+__generated_with = "0.10.9"
 app = marimo.App(width="medium")
 
 
@@ -18,6 +18,8 @@ def _(mo):
     mo.md(
         """
         # Interactive Data Visualization
+
+        <img src="public/logo.png" width="200" />
 
         This notebook demonstrates a simple interactive visualization using Altair.
         Try selecting the points!
